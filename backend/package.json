@@ -1,0 +1,19 @@
+{
+  "name": "duty-scheduler-backend",
+  "version": "1.0.0",
+  "description": "Backend for duty scheduler with Telegram notifications",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
